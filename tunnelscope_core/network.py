@@ -1,6 +1,5 @@
 """UDP probe and receiver implementation."""
 
-import argparse
 from datetime import datetime, timezone
 import errno
 import ipaddress
@@ -11,7 +10,6 @@ import socket
 import struct
 import sys
 import time
-from pathlib import Path
 
 from .icmp import drain_error_queue, enable_error_queue, require_icmp_support
 from ._version import VERSION
