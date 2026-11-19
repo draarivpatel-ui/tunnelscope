@@ -6,7 +6,7 @@ combined or correlated. The mapping itself is never written to a report.
 """
 
 import copy
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, timezone
 import ipaddress
 import re
 
